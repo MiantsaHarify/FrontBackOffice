@@ -1,0 +1,241 @@
+body {
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 16px;
+}
+
+.StatisticsRight .StatisticsRightInformation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation1 {
+    height: auto;
+    width: 100%;
+    background-color: #82cd47;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 20px;
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation1 h3 {
+    font-size: 14px;
+    color: #F0FF42;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation1 h2 {
+    font-size: 16px;
+    color: #F0FF42;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation1 p {
+    font-size: 11px;
+    color: #217756;
+    text-align: left;
+    line-height: 16px;
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation1 img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation1 Button {
+    position: relative;
+    bottom: 32px;
+    background-color: #F0FF42;
+    color: #54B436;
+    width: 130px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 14px;
+    padding: 1rem 1rem;
+    margin-top: 35px;
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation3 {
+    width: auto;
+    height: 240px;
+    background-color: #217756;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 285px;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 80px;
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation3 h3 {
+    color: #F0FF42;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 100px;
+    width: 100%;
+    top: 20px;
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation3 p {
+    position: absolute;
+    top: 155px;
+    left: 170px;
+    color: #82cd47;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: left;
+    padding-right: 22px;
+    max-height: 3px;
+    display: inline-block;
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation3 img {
+    position: absolute;
+    top: 10px;
+    width: 14rem;
+    margin-right: 10px; 
+    transform: scaleX(-1); 
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation3 Button {
+    background-color: #F0FF42;
+    color: #54B436;
+    width: 130px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 14px;
+    position: absolute;
+    float: right;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    bottom: 40px;
+    left: 420px; 
+}
+
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: 250px;
+    background-color: #82cd47;
+    padding-top: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation4 h3 {
+    position: absolute;
+    color: #F0FF42;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 16px;
+    width: calc(100% - 64px); 
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation4 img {
+    width: 14rem;
+    float: right;
+    padding-top: 40px;
+    padding-left: 300px;
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation4 p {
+    position: absolute;
+    top: 65px;
+    left: 30px;
+    color: #217756;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: left;
+    width: calc(100% - 64px);
+    max-height: 10px; 
+}
+
+.StatisticsRight .StatisticsRightInformation .StatisticsRightInformation4 Button {
+    position: absolute;
+    bottom: 32px;
+    background-color: #F0FF42;
+    color: #54B436;
+    width: 130px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 14px;
+    padding: 1rem 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .StatisticsRight .StatisticsRightInformation .StatisticsRightInformation1,
+    .StatisticsRight .StatisticsRightInformation .StatisticsRightInformation3,
+    .StatisticsRight .StatisticsRightInformation .StatisticsRightInformation4 {
+        width: 100%; /* Ajuster la largeur à 100% sur les petits écrans */
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .StatisticsRight .StatisticsRightInformation .StatisticsRightInformation3 img {
+        position: relative;
+        transform: scaleX(-1);
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .StatisticsRight .StatisticsRightInformation .StatisticsRightInformation3 p {
+        position: relative;
+        top: auto;
+        left: auto;
+        max-height: none;
+        display: block;
+    }
+
+    .StatisticsRight .StatisticsRightInformation .StatisticsRightInformation3 Button {
+        position: relative;
+        float: none;
+        left: auto;
+        bottom: 20px;
+    }
+
+    .StatisticsRight .StatisticsRightInformation .StatisticsRightInformation4 img {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .StatisticsRight .StatisticsRightInformation .StatisticsRightInformation4 p {
+        position: relative;
+        top: auto;
+        left: auto;
+        max-height: none;
+    }
+
+    .StatisticsRight .StatisticsRightInformation .StatisticsRightInformation4 Button {
+        position: relative;
+        float: none;
+        left: auto;
+        bottom: 20px;
+    }
+}

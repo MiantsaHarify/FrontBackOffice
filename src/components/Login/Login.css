@@ -1,0 +1,86 @@
+*{
+  font-family: Gotham Rounded;
+}
+
+/* body {
+  background-image: url('fondLogin.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+} */
+
+.Login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: auto;
+}
+
+.Login .LoginContent {
+  background-color: #217756;
+  border: #F0FF42 solid 3px;
+  border-radius: 25px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+}
+
+.Login .LoginContent h2{
+  font-size: 26px;
+  font-weight: 700;
+  color: #F0FF42;
+  text-align: center;
+  padding-bottom: 34px;
+}
+
+.Login .LoginContent .LoginContentInformation Input {
+  background-color: #82CD47;
+  text-decoration: none;
+  text-align: left;
+  width: 90%;
+  justify-content: center;
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2.4rem;
+  padding-right: 2rem;
+  margin-bottom: 12px;
+
+  border-radius: 25px;
+  border: none;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+.Login .LoginContent .LoginContentInformation Input::placeholder {
+  color: #F0FF42;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.Login .LoginButton Button {
+  background-color: #F0FF42;
+  color: #54B436;
+  width: 90%;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 6.4rem;
+  padding-right: 6rem;
+  margin-top: 2.5rem;
+  
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Login .LoginButton button:hover {
+  background-color: #54B436;
+  border: #F0FF42 2px solid;
+  color: #F0FF42;
+}

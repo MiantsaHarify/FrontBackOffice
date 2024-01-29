@@ -1,0 +1,110 @@
+*{
+  font-family: Gotham Rounded;
+} 
+
+.Header {
+  width: 96%;
+  display: flex;
+  color: #F0FF42; 
+}
+
+.Header .HeaderRight {
+  display: flex;
+  align-items: center; 
+  padding-right: 0.5px;
+}
+
+.Header .HeaderRight .HeaderSearch {
+  display: flex;
+  position: relative;
+  margin-right: 18px;
+}
+
+.Header .HeaderRight .HeaderSearch img{
+  height: 25px;
+  position: absolute;
+  left: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 10px;
+}
+
+.Header .HeaderRight .HeaderSearch:hover{
+  cursor: pointer;
+}
+
+.Header .HeaderRight .HeaderSearch Input {
+  width: 260px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 3.8rem;
+  padding-right: 10rem;
+  border: none;
+  border-radius: 25px;
+  /* margin-right: 50px; */
+  background-color: #217756;
+  outline: none; 
+}
+
+.Header .HeaderRight .HeaderSearch Input::placeholder {
+  color: #F0FF42; 
+}
+
+.Header .HeaderRight .HeaderSearch button {
+  padding: 10px 15px;
+  background-color: #217756; 
+  border: none;
+  border-radius: 30px;
+  color: #F0FF42;
+  cursor: pointer;
+}
+
+.Header .HeaderRight .HeaderNotification {
+  background-color: #217756;
+  padding-left: 110px;
+  padding-right: 22px;
+  padding-top: 0.85rem;
+  padding-bottom: 0.95rem;
+  border-radius: 25px;
+  margin-right: 26px;
+}
+
+.Header .HeaderRight .HeaderNotification img{
+  width: 32px;
+  float: right;
+}
+
+.Header .HeaderRight .HeaderNotification:hover{
+  cursor: pointer;
+}
+
+.Header .HeaderRight .HeaderAdmin {
+  width: 100px;
+  background-color: #82CD47;
+  padding-top: 8.5px;
+  padding-bottom: 8.5px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 20px;
+  margin-right: 12px;
+}
+
+.Header .HeaderRight .HeaderAdmin p {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.Header .HeaderRight .HeaderAdmin:hover{
+  cursor: pointer;
+}
+
+.Header .HeaderRight .HeaderConnexion{
+  display: flex;
+  padding-left: 10.5px;
+  padding-right: 24px;
+}
+
+.Header .HeaderRight .HeaderConnexion img{
+  width: 58px;
+  float: right;
+}

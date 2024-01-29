@@ -1,0 +1,116 @@
+*{
+    font-family: Gotham Rounded;
+}
+
+.Table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    height: 100vh;
+}
+
+.Table .TableLeft {
+    height: 100%;
+    background-color: #217756;
+    border-radius: 0px 30px 30px 0px;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 65px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Table .TableLeft .TableLeftLogo {
+    align-items: center;
+    justify-content: center;
+    padding-left: 35px;
+}
+
+.Table .TableLeft .TableLeftLogo img {
+    height: 100px;
+}
+
+.Table .TableLeft .TableLeftLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.Table .TableLeft .TableLeftLogin img {
+    border-radius: 50%;
+    height: 55px;
+}
+
+.Table .TableLeft .TableLeftLogin p {
+    color: #F0FF42;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 12px;
+}
+
+.Table .TableLeft .TableLeftButton {
+    padding-top: 40px;
+}
+
+.Table .TableLeft .TableLeftButton Button {
+    background-color: #F0FF42;
+    color: #217756;
+
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: left;
+
+    border: none;
+    height: 48px;
+    width: 115%;
+    
+    margin-top: 3.5px;
+    margin-bottom: 4.5px;
+    margin-left:3px;
+    margin-right: 3px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.Table .TableLeft .TableLeftButton button:hover {
+    background-color: #82CD47;
+    color: #F0FF42;
+}
+
+.Table .TableRight {
+    margin-top: 88px;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 12px; 
+    padding: 12px; 
+}
+
+@media (max-width: 600px) {
+    .Table {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Table .TableLeft {
+        order: 0;
+        border-radius: 0px 0px 0px 0px;
+        margin-right: 0px;
+    }
+
+    .Table .TableRight {
+        margin-top: 20px; /* Adjust margin-top for spacing */
+        grid-template-columns: 1fr; /* Change to a single column layout */
+    }
+
+    .Table .TableLeft .TableLeftButton Button {
+        width: 100%; 
+    }
+}

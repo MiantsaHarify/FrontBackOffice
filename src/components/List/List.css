@@ -1,0 +1,76 @@
+*{
+    font-family: Gotham Rounded;
+}
+
+.List {
+    height: auto;
+    width: 100%;
+}
+
+.List .ListRight {
+    background-color: #82cd47;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+}
+
+.List .ListRight h3{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F0FF42;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.List .ListRight h2{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #217756;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.List .ListRight .ListRightInformation p {
+    text-transform: capitalize;
+    text-align: center;
+    border: #217756 solid 2px;
+    border-radius: 25px;
+    font-size: 16px;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    color: #217756;
+}
+
+.List .ListRight .ListRightInformation Button {
+    background-color: #F0FF42;
+    color: #217756;
+    width: 700px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    margin-top: 0.1rem;
+    margin-right: 8px;
+
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.List .ListRight .ListRightInformation button:hover {
+    background-color: #54B436;
+    color: #F0FF42;
+}

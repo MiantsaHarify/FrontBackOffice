@@ -1,0 +1,21 @@
+.App {
+  background-color: #ecfff0;
+}
+
+.AppHeader {
+  float: right;
+  margin-top: 20px;
+}
+
+.AppContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AppContent .AppTable {
+  margin-right: 25px;
+}
+
+.AppContent .AppSection {
+  margin-top: 122px;
+}

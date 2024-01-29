@@ -1,0 +1,158 @@
+body {
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 16px;
+}
+
+.HomeRight .HomeRightInformation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation1 {
+    position: relative;
+    width: auto;
+    height: 250px;
+    background-color: #217756;
+    padding-top: 32px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation1 h3 {
+    position: absolute;
+    color: #F0FF42;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation1 p {
+    position: absolute;
+    top: 65px;
+    left: 30px;
+    color: #fcfcfc;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation1 img {
+    width: 26.5rem;
+    float: right;
+    padding-right: 5px;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation1 Button {
+    position: absolute;
+    bottom: 32px;
+    background-color: #F0FF42;
+    color: #54B436;
+    width: 150px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 14px;
+    padding: 1.2rem 2rem;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation23 {
+    margin-top: -220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation23 .HomeRightInformation2 {
+    position: relative;
+    width: 270px;
+    background-color: #54B436;
+    padding-bottom: 20px;
+    padding-left: 36px;
+    border-radius: 20px;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation23 .HomeRightInformation2 h3 {
+    color: #fcfcfc;
+    font-size: 48px;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation23 .HomeRightInformation3 {
+    position: relative;
+    width: 270px;
+    background-color: #54B436;
+    padding-top: 8px;
+    padding-right: 38px;
+    border-radius: 20px;
+    margin-left: 16px;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation23 .HomeRightInformation3 img {
+    width: 260px;
+    justify-content: center;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation4 {
+    height: auto;
+    width: 100%;
+    background-color: #54B436;
+    padding: 22px;
+    border-radius: 20px;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation4 h3 {
+    font-size: 16px;
+    color: #F0FF42;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation4 p {
+    font-size: 20px;
+    color: #fcfcfc;
+    text-align: left;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation4 img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.HomeRight .HomeRightInformation .HomeRightInformation4 Button {
+    bottom: 32px;
+    background-color: #F0FF42;
+    color: #54B436;
+    width: 150px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 14px;
+    padding: 1.2rem 2rem;
+    margin-top: 38px;
+    margin-left: 18px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .HomeRight .HomeRightInformation {
+        grid-template-columns: 1fr;
+    }
+
+    .HomeRight .HomeRightInformation .HomeRightInformation1 {
+        width: 100%;
+    }
+
+    .HomeRight .HomeRightInformation .HomeRightInformation23 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -180px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .HomeRight .HomeRightInformation .HomeRightInformation1 p {
+        top: 45px;
+    }
+}
